@@ -8,7 +8,8 @@ password = "PLAINTEXT_PASSWORD_GOES_HERE"
 gateway = "CYBEROAM_GATEWAY_GOES_HERE"
 global url, logged_in
 logged_in = False
-url = "http://{}:8090/httpclient.html".format(gateway)
+port = "GATEWAY_PORT_GOES_HERE"
+url = "http://{}:{}/httpclient.html".format(gateway, port)
 
 
 def login():
